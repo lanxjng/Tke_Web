@@ -1,0 +1,139 @@
+#index {
+    text-align: center;
+}
+
+#index #div_left {
+    float: left;
+    width: 300px;
+    height: 1500px;
+    margin-left: 320px;
+}
+
+#index #div_left li {
+    list-style-type: none;
+    margin-top: 40px;
+}
+
+#index #div_right {
+    float: left;
+    width: 550px;
+    height: 714px;
+    margin-left: 530px;
+    margin-top: -1500px;
+    background-color: rgb(204, 152, 21);
+}
+
+#index #div_right #right_1 {
+    width: 260px;
+    text-align: left;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-left: 15px;
+}
+
+#index #div_right #right_2 {
+    width: 200px;
+    margin-left: 325px;
+    margin-top: -690px;
+}
+
+
+/* ######################################## */
+
+#story {
+    text-align: center;
+}
+
+#story #div_left {
+    float: left;
+    width: 300px;
+    height: 1500px;
+    margin-left: 320px;
+}
+
+#story #div_left li {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+#story #div_right {
+    float: left;
+    width: 550px;
+    height: 1450px;
+    margin-left: 530px;
+    margin-top: -1500px;
+    background-color: rgb(191, 191, 126);
+}
+
+#story #div_right #right_1 {
+    margin-left: 15px;
+    width: 460px;
+    font-size: 17.5px;
+    text-align: left;
+}
+
+#story #div_right #right_1 h1 {
+    color: rgb(123, 116, 58);
+}
+
+#story #div_right #right_2 {
+    width: 74px;
+    height: 1450px;
+    background-color: rgb(147, 138, 87);
+    margin-left: 476px;
+    margin-top: -1240px;
+}
+
+
+/* ######################################## */
+
+#register {
+    text-align: center;
+}
+
+#register #div_left {
+    float: left;
+    width: 300px;
+    height: 1500px;
+    margin-left: 320px;
+}
+
+#register #div_left li {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+#register #div_right {
+    float: left;
+    width: 550px;
+    height: 717px;
+    margin-left: 530px;
+    margin-top: -1500px;
+    background-color: rgb(204, 152, 21);
+}
+
+#register #div_right #right_1 {
+    width: 260px;
+    text-align: left;
+    font-size: 19px;
+    font-weight: 600;
+    margin-left: 15px;
+    color: green;
+}
+
+#register #div_right #right_1 h6 {
+    margin-top: -25px;
+    font-size: 18px;
+}
+
+#register #div_right #right_2 {
+    width: 200px;
+    margin-left: 255px;
+    margin-top: -650px;
+}
+
+#register #div_right #right_2 li {
+    list-style-type: none;
+    margin-bottom: 15px;
+}

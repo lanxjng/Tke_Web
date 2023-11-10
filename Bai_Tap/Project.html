@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link rel="stylesheet" href="Project.css">
+</head>
+
+<body>
+    <div id="banner">
+        <ul>
+            <li>
+                <a href="Home.html">HOME</a>
+            </li>
+            <li>
+                <a href="About.html">ABOUT</a>
+            </li>
+            <li>
+                <a href="Services.html">SERVICES</a>
+            </li>
+            <li>
+                <a href="Project.html">PROJECTS</a>
+            </li>
+            <li>
+                <a href="Contact_us.html">CONTACT US</a>
+            </li>
+
+        </ul>
+        <img src="images/search-icon.png" alt="" width="17px" height="17px">
+    </div>
+    <div id="logo">
+        <img src="images/logo.png" alt="" width="115px">
+    </div>
+    <div id="body">
+        <div id="div_tren">
+            <div id="chu">
+                <h1>LATEST PROJECTS</h1>
+                <div id="hang_chu" style="text-align: center; margin-bottom: 60px;">
+                    <ul>
+                        <li style="background-color: rgba(228,73,29,255); color: white;">ALL</li>
+                        <li>BULDING</li>
+                        <li>COMMERCIAL</li>
+                        <li>INTERIOR DESIGN</li>
+                        <li>RESIDENTIAL</li>
+                    </ul>
+                </div>
+            </div>
+            <div style="width: 100%;" id="anh">
+                <img style="margin-left: 35px;" src="images/img-3.png" alt="">
+                <img src="images/img-4.png" alt="">
+                <img src="images/img-5.png" alt="">
+                <img src="images/img-6.png" alt="">
+            </div>
+        </div>
+        <div id="div_duoi">
+            <div id="chu2">
+                <h1>OUR FEATURES PROJECTS</h1>
+                <p>It is a long establied fact that a reader will be distracted by the readable</p>
+            </div>
+            <div id="truot">
+                <div id="btn-left" style="margin-left: -350px; margin-top: 280px;" class="icon"><img src="images/left-icon.png" alt=""></div>
+                <div id="anh2">
+                    <img src="images/img-4.png" alt="">
+                    <img src="images/img-5.png" alt="">
+                    <img src="images/img-6.png" alt="">
+                </div>
+                <div id="btn-right" style="margin-left: 930px; margin-top: -280px;" class="icon"><img src="images/right-icon.png" alt=""></div>
+
+            </div>
+            <div id="chu3">
+                <div style="margin-left: -260px;">
+                    <p>Reader will be <br> distracted by the readable</p>
+                </div>
+                <div>
+                    <p>Reader will be <br> distracted by the readable</p>
+                </div>
+                <div>
+                    <p>Reader will be <br> distracted by the readable</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div id="contact">
+        <div id="contact_1" style="margin-left: 240px;">
+            <div style="float: left;"><img src="images/map-icon.png" alt=""></div>
+            <div style="float: left; margin-top: 10px;">No.123 Chalingt Gate, Supper <br>market New York</div>
+        </div>
+        <div id="contact_2">
+            <div style="float: left;"><img src="images/call-icon.png" alt=""></div>
+            <div style="float: left; margin-top: 15px;">(+71 7986543234)</div>
+        </div>
+        <div id="contact_3">
+            <div style="float: left;"><img src="images/mail-icon.png" alt=""></div>
+            <div style="float: left; margin-top: 15px;">demo@gmail.com</div>
+        </div>
+    </div>
+    <div id="footer">
+        <p>Copyright 2019 All Right Reserved By. Free html Templates --- Mẫn Thị Lan</p>
+    </div>
+
+    <script>
+        var arrImage = [`<img src="images/img-4.png" alt="">
+            <img src="images/img-5.png" alt="">
+            <img src="images/img-6.png" alt="">`,
+
+            `<img src="images/img-5.png" alt="">
+            <img src="images/img-6.png" alt="">
+            <img src="images/img-4.png" alt="">`,
+
+            `<img src="images/img-4.png" alt="">
+            <img src="images/img-6.png" alt="">
+            <img src="images/img-5.png" alt="">`,
+
+            `<img src="images/img-5.png" alt="">
+            <img src="images/img-4.png" alt="">
+            <img src="images/img-6.png" alt="">`
+        ];
+        var count = 0;
+
+        document.getElementById('btn-left').onclick = function() {
+            document.getElementById('anh2').innerHTML = arrImage[count--];
+            if (count < 1) {
+                count = arrImage.length - 1;
+            }
+        }
+        document.getElementById('btn-right').onclick = function() {
+            document.getElementById('anh2').innerHTML = arrImage[count++];
+            if (count == arrImage.length - 1) {
+                count = 0;
+            }
+        }
+    </script>
+
+</body>
+
+</html>

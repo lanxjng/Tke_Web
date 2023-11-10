@@ -1,0 +1,164 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <style>
+        #menu ul {
+            list-style-type: none;
+            text-align: center;
+        }
+        
+        #menu ul li {
+            display: inline-block;
+            background-color: rgb(40, 244, 60);
+            color: #121010;
+            padding: 5px;
+            position: relative;
+            font-size: 25px;
+            width: 150px;
+            height: 30px;
+        }
+        
+        #menu ul li:hover {
+            background-color: rgb(235, 74, 227);
+            color: #71f179;
+        }
+        
+        #sub_menu {
+            display: none;
+            position: absolute;
+        }
+        
+        #sub_menu li {
+            margin-left: 0px;
+            margin-top: 5px;
+        }
+        
+        #sub_menu ul li :hover {
+            background-color: rgb(161, 219, 250);
+            color: #f08ecc;
+        }
+        
+        #menu ul li:hover>#sub_menu {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="menu">
+        <ul>
+            <li>HOME</li>
+            <li>PRODUCT
+                <div id="sub_menu">
+                    <ul>
+                        <li>Top_Product</li>
+                        <li>New_Product</li>
+                    </ul>
+                </div>
+            </li>
+            <li>CONTACT</li>
+        </ul>
+    </div>
+
+</body>
+
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #menu {
+            background-color: rgb(242, 255, 179);
+            border: black solid 0.1ch;
+        }
+        
+        #menu ul {
+            list-style-type: none;
+            text-align: center;
+        }
+        
+        #menu ul li {
+            display: inline-block;
+            background-color: rgb(242, 255, 179);
+            color: #121010;
+            padding: 5px;
+            position: relative;
+            font-size: 25px;
+            width: 150px;
+            height: 35px;
+        }
+        
+        #menu ul li:hover {
+            background-color: rgb(136, 205, 250);
+            color: #f7afe3;
+        }
+        
+        #sub_menu_sport,
+        #sub_menu_world {
+            display: none;
+            position: absolute;
+        }
+        
+        #menu ul li:hover>#sub_menu_sport {
+            display: block;
+        }
+        
+        #menu ul li:hover>#sub_menu_world {
+            display: block;
+        }
+        
+        #sub_menu_sport,
+        #sub_menu_world {
+            margin-top: 16px;
+            background-color: rgb(242, 255, 179);
+            font-size: 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="menu">
+        <ul>
+            <li>Thể Thao
+                <div id="sub_menu_sport">
+                    <ul>
+                        <li>Bóng Đá</li>
+                        <li>Bóng Bàn</li>
+                        <li>Bóng Chuyền</li>
+                        <li>Cầu Lông</li>
+                        <li>Bơi Lội</li>
+                    </ul>
+                </div>
+
+            </li>
+            <li>Quốc Tế
+                <div id="sub_menu_world">
+                    <ul>
+                        <li>Tin tức World</li>
+                        <li>Tin trong nước</li>
+                        <li>Tin vấn</li>
+                        <li>Chính trị</li>
+                        <li>Kinh tế</li>
+                    </ul>
+                </div>
+
+            </li>
+            <li>Đời Sống</li>
+            <li>Giải Trí</li>
+            <li>Công Nghệ</li>
+            <li>Kiến Thức</li>
+        </ul>
+    </div>
+</body>
+
+</html>
+
+</html>

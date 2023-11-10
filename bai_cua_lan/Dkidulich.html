@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng kí du lịch</title>
+    <style>
+        tr {
+            background-color: rgb(205, 243, 147);
+        }
+        
+        th {
+            padding: 10px 10px 10px 10px;
+        }
+        
+        .left {
+            width: 150px;
+            text-align: justify;
+        }
+        
+        .right {
+            text-align: justify;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="margin-left: 300px;">Đăng ký du lịch</h1>
+    <table border="1px">
+        <tr>
+            <th class="left">Họ và tên</th>
+            <th class="right"> <input style="padding-left: 200px;" type="text" name="" id=""></th>
+        </tr>
+        <tr>
+            <th class="left">Địa chỉ</th>
+            <th class="right"> <input style="padding-left: 200px;" type="text" name="" id=""></th>
+        </tr>
+        <tr>
+            <th class="left">Điện thoại</th>
+            <th class="right"> <input type="number" name="" id=""></th>
+        </tr>
+        <tr>
+            <th class="left">Khách du lịch</th>
+            <th class="right"> <input type="checkbox">Việt Nam
+                <input type="checkbox">Nước ngoài
+            </th>
+        </tr>
+        <tr>
+            <th class="left">Chọn tour</th>
+            <th>
+                <select class="right" style="width: 200px; margin-right: 400px;">
+                    <label for="">
+                        <optgroup label="Miền Bắc">
+                                <option value="">Hà Nội - Hạ Long - Sapa</option>
+                                <option value="">Hà Nội - Chùa Hương - Ninh Bình</option>
+                                <option value="">Hà Nội - Cát Bà - Tuần Châu</option>
+                        </optgroup>
+                        <optgroup label="Miền Trung">
+                            <option value="">Huế - Bạch Xã - Đà Nẵng</option>
+                            <option value="">Nha Trang - Đà Lạt</option>
+                            <option value="">Buôn Mê Thuật - Gia Lai - Kon Tum</option>
+                        </optgroup>
+                        <optgroup label="Miền Nam">
+                            <option value="">TPHCM- Mỹ Tho</option>
+                        </optgroup>
+                    </optgroup>
+                    </label>
+                    </select>
+
+            </th>
+        </tr>
+        <tr>
+            <th class="left">Phương tiện</th>
+            <th class="right"> <input type="radio" name="" id="">Máy bay
+                <input type="radio" name="" id="">Xe ô tô
+            </th>
+        </tr>
+        <tr>
+            <th class="center" colspan="2">
+                <fieldset style="width: 500px;margin-left: 130px; height: 70px; ">
+                    <legend style="text-align: justify; ">Số lượng đoàn khách</legend>
+                    Người lớn<input style="width: 50px; padding-right: 30px; " type="number"> Trẻ em<input style="width: 50px;margin-top: 20px; margin-right: 200px; padding-right: 30px; " type="number">
+
+                </fieldset>
+            </th>
+
+
+        </tr>
+
+
+        <tr>
+            <th class="left ">Ghi chú thêm</th>
+            <th class="right "> <input style="padding-left: 200px; padding-bottom: 50px; " type="text " name=" " id=" "></th>
+        </tr>
+        <tr>
+            <th class="center " colspan="2 "><button style=" text-align: center; ">Đồng ý</button></th>
+
+        </tr>
+    </table>
+
+</body>
+
+</html>

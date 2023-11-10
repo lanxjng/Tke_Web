@@ -1,0 +1,86 @@
+#banner {
+    background-color: rgba(239, 248, 254, 255);
+    text-align: center;
+}
+
+#banner a {
+    font-weight: 550;
+}
+
+#banner ul li {
+    display: inline-block;
+    background-color: rgba(239, 248, 254, 255);
+    padding: 10px 30px 10px 30px;
+    font-size: 19px;
+    text-align: center;
+}
+
+#banner ul li :hover {
+    color: rgb(14, 181, 237);
+}
+
+#banner ul li a {
+    text-decoration: none;
+    color: rgb(20, 20, 20);
+}
+
+
+/* ############################ */
+
+#body {
+    display: flex;
+    height: 550px;
+}
+
+#body #div_left {
+    float: left;
+    width: 750px;
+}
+
+#body #div_left button {
+    color: rgb(13, 13, 13);
+    background-color: rgba(6, 255, 255, 255);
+    padding: 10px 30px 10px 30px;
+    border: none;
+    border-radius: 3px;
+    margin-top: 10px;
+    font-weight: 530;
+    font-size: 15px;
+}
+
+#body #div_left input {
+    padding-right: 400px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#body #div_right {
+    float: left;
+    width: 250px;
+    margin-left: 50px;
+}
+
+#body #div_right #map {
+    background-color: rgba(6, 255, 255, 255);
+    padding-bottom: 23px;
+    padding-left: 30px;
+    padding-top: 2px;
+}
+
+
+/* ################################## */
+
+#footer {
+    display: flex;
+    background-color: rgba(239, 248, 254, 255);
+}
+
+#footer div {
+    width: 200px;
+    height: 250px;
+    padding: 0px 0px 10px 10px;
+}
+
+#footer h3 {
+    font-size: 20px;
+}

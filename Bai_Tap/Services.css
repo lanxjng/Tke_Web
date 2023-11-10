@@ -1,0 +1,135 @@
+#banner {
+    background-color: rgba(2, 18, 57, 255);
+    padding: 20px 0 20px 0;
+    text-align: center;
+}
+
+#banner img {
+    float: right;
+    margin-top: -35px;
+    margin-right: 150px;
+}
+
+#banner ul li {
+    display: inline-block;
+    background-color: rgba(2, 18, 57, 255);
+    padding: 0 15px 0 15px;
+    font-size: 19px;
+}
+
+#banner ul li :hover {
+    color: rgb(14, 181, 237);
+}
+
+#banner ul li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+#logo {
+    margin-top: -45px;
+    margin-left: 80px;
+}
+
+
+/* -------------------------------- */
+
+#circle {
+    background: rgba(238, 238, 238, 255);
+    border-radius: 50%;
+    width: 600px;
+    height: 550px;
+    margin-top: 70px;
+    margin-left: 450px;
+}
+
+#body {
+    display: flex;
+    height: 700px;
+    margin-top: -47px;
+    background-color: rgba(255, 251, 243, 255);
+}
+
+#body #div_center {
+    text-align: center;
+    margin-top: 120px;
+    margin-left: -530px;
+}
+
+#body #div_tong {
+    display: flex;
+    position: absolute;
+    margin-top: 300px;
+}
+
+#div_1,
+#div_2,
+#div_3 {
+    display: flex;
+    background-color: rgba(255, 255, 255, 255);
+    border-radius: 10px;
+    padding: 25px 0 25px 0;
+}
+
+#div_1,
+#div_3 {
+    width: 520px;
+}
+
+#div_2 {
+    width: 400px;
+}
+
+#body #div_btn {
+    margin-top: 500px;
+}
+
+#body #div_btn button {
+    display: inline;
+    color: white;
+    background-color: rgba(176, 56, 22, 255);
+    padding: 13px 50px 13px 50px;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 30px;
+}
+
+#body #div_right {
+    float: right;
+    width: 700px;
+    height: 600px;
+    margin-left: 30px;
+}
+
+
+/* ---------------------------------- */
+
+#contact {
+    background-color: rgba(2, 18, 57, 255);
+    color: white;
+    display: flex;
+    padding: 40px 0 40px 0;
+}
+
+#contact_1,
+#contact_2,
+#contact_3 {
+    padding: 0 40px 0 40px;
+    text-align: center;
+    text-align: justify;
+}
+
+#contact img {
+    width: 65px;
+    height: 50px;
+    padding-right: 10px;
+}
+
+#footer {
+    background-color: red;
+    color: white;
+    padding: 8px 0 8px 0;
+    text-align: center;
+}

@@ -1,0 +1,156 @@
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        #banner {
+            display: inline-block;
+        }
+        
+        #banner #list {
+            margin-top: -40px;
+            margin-left: 680px;
+        }
+        
+        #banner #list ul li {
+            list-style-type: none;
+            display: inline-block;
+            color: rgba(182, 182, 182, 255);
+            padding: 0 15px 0 15px;
+            font-weight: 600;
+        }
+        
+        #contact {
+            display: flex;
+            height: 60px;
+        }
+        
+        #contact .ria {
+            width: 200px;
+            background-color: rgba(242, 173, 157, 255);
+        }
+        
+        #contact .center {
+            background-color: rgba(233, 96, 60, 255);
+            color: white;
+            width: 1100px;
+            margin: 0 10px 0 10px;
+        }
+        
+        #contact .center h1 {
+            font-size: 25px;
+            margin-left: 20px;
+        }
+        
+        #body {
+            margin: 0 200px 0 200px;
+        }
+        
+        #body #div_left #top {
+            margin-top: 30px;
+            display: flex;
+        }
+        
+        #body #div_left #top #hi {
+            width: 400px;
+            margin-left: 60px;
+        }
+        
+        #body #ha {
+            display: flex;
+        }
+        
+        #body .ha #gray {
+            background-color: rgba(217, 217, 217, 255);
+        }
+        
+        #body #div_left #top #hi h2 {
+            color: rgba(233, 96, 60, 255);
+            font-size: 20px;
+        }
+        
+        #square {
+            display: flex;
+        }
+        
+        .v {
+            width: 50px;
+            height: 50px;
+            background-color: rgba(243, 174, 158, 255);
+            border: 2px solid red;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            display: flex;
+        }
+        
+        #square #he {
+            display: flex;
+        }
+        
+        #body #bottom {
+            width: 700px;
+            margin-top: -50px;
+        }
+        
+        #bottom {
+            display: flex;
+        }
+        
+        #body #bottom #left {
+            width: 230px;
+        }
+        
+        #body #bottom #right {
+            width: 400px;
+            float: right;
+            margin-top: 20px;
+            margin-left: 25px;
+        }
+        
+        #body #bottom #right input {
+            width: 250px;
+            height: 40px;
+            margin-bottom: 15px;
+            border: 1px solid red;
+            padding-left: 20px;
+        }
+        
+         ::placeholder {
+            color: rgba(233, 96, 60, 255);
+            font-weight: 600;
+        }
+        
+        button {
+            width: 90px;
+            height: 40px;
+            background-color: rgba(233, 96, 60, 255);
+            color: white;
+            border: none;
+            font-size: 15px;
+        }
+        
+        #footer .hehe {
+            width: 200px;
+            background-color: rgba(242, 177, 157, 255);
+        }
+        
+        #footer {
+            margin-top: 50px;
+            display: flex;
+        }
+        
+        #footer #hihi {
+            display: flex;
+            background-color: rgba(231, 102, 60, 255);
+            color: white;
+            width: 1100px;
+            margin: 0 15px 0 15px;
+        }
+        
+        #footer #hihi div {
+            width: 300px;
+            padding: 20px 25px 20px 25px;
+        }
+        
+        #footer h1 {
+            font-size: 30px;
+        }
